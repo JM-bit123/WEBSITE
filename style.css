@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(boss.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    color: rgb(3, 4, 3);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 10px;
+    float: left;
+}
+
+.menu {
+    width: 300px;
+    float: center;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Changed nav text to white */
+    font-family: Helvetica;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(61, 29, 29);
+}
+
+.search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* No need for float or large margin here if you're using absolute positioning */
+}
+
+.search input {
+    background-color: transparent;
+    color: white; /* text color */
+    border: 1px solid white; /* border for visibility */
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+
+
+  
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: transparent;
+    color: rgb(238, 255, 2);
+    border: 1px transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: -30%;
+    height: 40px
+    border; 2px solid #ff7200;
+  }
+
+  .srch:focus{
+    outline: none;
+  }
+
+  
